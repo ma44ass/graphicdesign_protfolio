@@ -19,23 +19,29 @@
     />
   </head>
 
-  <body class="text-[#2D2D2D]">
+  <body class="text-[#2D2D2D] font-['Epilogue']">
     <header>
+      <!---Navigation--->
       <nav class="flex justify-between px-[42px] py-[24px]">
-        <span class="text-px[20px] font-bold leading-[30px]">Logo</span>
-        <ul class="flex justify-between space-x-6 text-px-[17px] font-normal leading-[27px]">
+        <span class="text-[20px] font-semibold leading-[30px]">Logo</span>
+        <ul class="flex justify-between space-x-6 text-[17px] leading-[27px]">
           <li>About</li>
           <li>Work</li>
           <li>Contact</li>
         </ul>
       </nav>
-      <section class="grid grid-cols-2 gap-[10px] px-[24px] py-[42px]">
-        <div class="space-y-12 px-14 py-15">
+
+      <!---Hero--->
+      <section class="grid grid-cols-2 gap-[68px] px-[56px] py-[42px]">
+        <div class="space-y-12">
           <div class="space-y-6">
-            <p class="text-px-[20px] leading-[30px] font-semibold">Branding | Image making</p>
-            <h1 class="text-[68px] font-semibold m-0 leading-[100%]">Visual Designer</h1>
-            <p class="text-[20px] py-7 leading-[27px]">
-              This is a template Figma file, turned into code using Anima. <br>
+            <p class="text-[20px] leading-[30px] font-semibold">
+              Branding | Image making
+            </p>
+            <h1 class="text-[68px] font-semibold m-0">Visual Designer</h1>
+            <p class="text-[17px] leading-[27px]">
+              This is a template Figma file, turned into code using Anima.
+              <br />
               Learn more at AnimaApp.com
             </p>
           </div>
@@ -45,67 +51,80 @@
             Contact
           </button>
         </div>
-        <div>
-          <img
-            src="img/profile.png"
-            alt="profil image"
-            class="w-[600px] h-[450px] mx-[56px] my-[-10px]"
-          />
+        <div class="w-[480px]">
+          <img src="img/profile.png" alt="profil image" />
         </div>
       </section>
+      <!---Brands--->
       <section class="flex justify-between py-[42px] px-[68px]">
-        <div class="w-[116px]">
-          <img src="img/google.png" alt="Google logo" />
+        <div class="w-[116px] my-auto">
+          <img src="img/google.png" alt="Google logo"/>
         </div>
-        <div class="w-[82px]"><img src="img/nike.png" alt="Nike logo" /></div>
-        <div class="w-[113px]">
-          <img src="img/samsung.png" alt="Samsung logo" />
+        <div class="w-[86px] my-auto">
+          <img src="img/nike.png"  alt="Nike logo" />
         </div>
-        <div class="w-[38px]"><img src="img/apple.png" alt="apple logo" /></div>
-        <div class="w-[64px]">
+        <div class="w-[113px] my-auto">
+          <img src="img/samsung.png" alt="Samsung logo"/>
+        </div>
+        <div class="w-[38px] my-auto">
+          <img src="img/apple.png" alt="apple logo" />
+        </div>
+        <div class="w-[65px] my-auto">
           <img src="img/adidas.png" alt="adidas logo" />
         </div>
       </section>
     </header>
     <main>
-      <section
-        class="grid grid-cols-3 text-center gap-[15px] py-[42px] px-[24px]"
-      >
-        <div class="flex flex-col gap-[20px]">
+      <!----services -->
+      <section class="grid grid-cols-3 text-center gap-[24px] mb-10.5">
+        <div class="flex flex-col space-y-10.5 py-[64px] px-[42px]">
           <div class="mx-auto">
             <img src="img/shape2.png" alt="decoration" />
           </div>
-          <h3 class="text-[27px] font-semibold leading-[42px]">Product Design</h3>
-          <p class="text-[17px] leading-[27px]">
-            This is a template Figma file, turned <br />
-            into code using Anima. Learn more at <br />
-            AnimaApp.com
-          </p>
+          <div class="space-y-3">
+            <h3 class="text-[27px] font-semibold leading-[42px]">
+              Product Design
+            </h3>
+            <p class="text-[17px] leading-[27px]">
+              This is a template Figma file, turned <br />
+              into code using Anima. Learn more at <br />
+              AnimaApp.com
+            </p>
+          </div>
         </div>
-        <div class="flex flex-col gap-[24px]">
+        <div class="flex flex-col space-y-10.5 py-[64px] px-[42px]">
           <div class="mx-auto">
             <img src="img/shape4.png" alt="decoration" />
           </div>
-          <h3 class="text-[27px] font-semibold leading-[42px]">Product Design</h3>
-          <p class="text-[17px] leading-[27px]">
-            This is a template Figma file, turned <br />
-            into code using Anima. Learn more at <br />
-            AnimaApp.com
-          </p>
+          <div class="space-y-3">
+            <h3 class="text-[27px] font-semibold leading-[42px]">
+              Visual Design
+            </h3>
+            <p class="text-[17px] leading-[27px]">
+              This is a template Figma file, turned <br />
+              into code using Anima. Learn more at <br />
+              AnimaApp.com
+            </p>
+          </div>
         </div>
-        <div class="flex flex-col gap-[24px]">
+        <div class="flex flex-col space-y-10.5 py-[64px] px-[42px]">
           <div class="mx-auto">
             <img src="img/shape3.png" alt="decoration" />
           </div>
-          <h3 class="text-[27px] font-semibold leading-[42px]">Product Design</h3>
-          <p class="text-[17px] leading-[27px]">
-            This is a template Figma file, turned <br />into code using Anima.
-            Learn more at <br />
-            AnimaApp.com
-          </p>
+          <div class="space-y-3">
+            <h3 class="text-[27px] font-semibold leading-[42px]">
+              Art Direction
+            </h3>
+            <p class="text-[17px] leading-[27px]">
+              This is a template Figma file, turned <br />into code using Anima.
+              Learn more at <br />
+              AnimaApp.com
+            </p>
+          </div>
         </div>
       </section>
 
+      <!--Latest work-->
       <section class="container-fluid py-10.5 px-6 mx-auto">
         <h2 class="text-[32px] font-semibold text-center leading-[42px]">
           Latest work
@@ -168,6 +187,7 @@
         </div>
       </section>
 
+      <!---Testimonials-->
       <section class="container-fluid py-10.5 px-6 mx-auto">
         <h2 class="text-[32px] font-semibold text-center leading-[42px]">
           Testimonials
@@ -266,11 +286,13 @@
         </div>
       </section>
     </main>
+
+    <!---footer-->
     <footer class="px-[24px] pt-[42px] pb-[86px] space-y-6">
       <h2 class="text-[32px] font-semibold leading-[42px]">
         Lets work together
       </h2>
-      <div class=" container-fluid mx-auto grid grid-cols-2 gap-[142px]">
+      <div class="container-fluid mx-auto grid grid-cols-2 gap-[142px]">
         <div class="space-y-10.5 w-[570px]">
           <p class="text-[17px] leading-[27px]">
             This is a template Figma file, turned into code using Anima. Learn
@@ -297,8 +319,18 @@
         </div>
         <form method="post" class="flex flex-col gap-6">
           <div class="space-y-3 text-[17px] leading-[27px] flex flex-col">
-            <input type="text" name="name" placeholder="Name"  class="py-4 px-6 bg-[#F3F3F3] placeholder-[#2D2D2D] "/>
-            <input type="email" name="Email" placeholder="Email" class="py-4 px-6 bg-[#F3F3F3] placeholder-[#2D2D2D]"/>
+            <input
+              type="text"
+              name="name"
+              placeholder="Name"
+              class="py-4 px-6 bg-[#F3F3F3] placeholder-[#2D2D2D]"
+            />
+            <input
+              type="email"
+              name="Email"
+              placeholder="Email"
+              class="py-4 px-6 bg-[#F3F3F3] placeholder-[#2D2D2D]"
+            />
           </div>
           <button
             type="submit"
